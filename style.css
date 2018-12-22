@@ -218,3 +218,9 @@ a {
     line-height: 1.5;
     color: rgba(0,0,0,0.5);
 }
+
+@media(max-width: 991px) {
+    .navigation-list .navigation-item .navigation-item__link.navigation-item__link--phone{
+        margin: 0;
+    }
+}
