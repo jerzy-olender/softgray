@@ -182,3 +182,39 @@ a {
     color: #eee;
     line-height: 1.8;
 }
+
+.about-us{
+    padding: 50px 0;
+    background-color: #eee;
+}
+
+.about-us .about-us-item{
+    margin-bottom: 30px;
+}
+
+.about-us-item .about-us-item__circle{
+    background-color: #3598db;
+    color: #fff;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.about-us-item .about-us-item__circle.about-us-item__circle--reverse{
+    transform: rotateY(180deg);
+}
+
+.about-us-item .about-us-item__title{
+    color: #3598db;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.about-us-item .about-us-item__text{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(0,0,0,0.5);
+}
