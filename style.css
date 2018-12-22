@@ -155,3 +155,12 @@ a {
 .page-header .main-navigation .navigation-wrapper{
     justify-content: end;
 }
+
+.navigation-list .navigation-item .navigation-item__link{
+    text-transform: uppercase;
+}
+
+.navigation-list .navigation-item .navigation-item__link.navigation-item__link--phone{
+    color: #000;
+    margin: 0 0 0 40px;
+}
