@@ -164,3 +164,21 @@ a {
     color: #000;
     margin: 0 0 0 40px;
 }
+
+.main{
+    background: url('./img/creative.jpg');
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.main .main-wrapper .main-wrapper__title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.main .main-wrapper .main-wrapper__text{
+    color: #eee;
+    line-height: 1.8;
+}
