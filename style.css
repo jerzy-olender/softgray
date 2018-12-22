@@ -140,3 +140,18 @@ table {
 a {
     text-decoration: none;
 }
+
+.page-header .main-navigation{
+    width: 100%;
+}
+
+.page-header .main-navigation .main-navigation__logo{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}
+
+.page-header .main-navigation .navigation-wrapper{
+    justify-content: end;
+}
